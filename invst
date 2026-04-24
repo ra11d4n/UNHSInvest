@@ -2137,3 +2137,4 @@ window.addEventListener("blur", () => saveState(), true);
 </script>
 </body>
 </html>
+dotnet nuget add source --username ra11d4n --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/NAMESPACE/index.json"
